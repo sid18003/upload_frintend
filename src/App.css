@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+}
+
+.logged-in-container, .auth-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.dashboard {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student {
+  background-color: #d1f7d1;
+}
+
+.teacher {
+  background-color: #fff8d1;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
